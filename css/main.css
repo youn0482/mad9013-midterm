@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	padding:0;
+	margin:0;
+    box-sizing: border-box;
+}	
+body{
+	font-size: 62.5%;	
+  /** you can set this as 100% if you want **/
+	background-color: #666;
+}
+h1, h2, h3{
+	font-weight: 700;	
+	padding: 5px 10px;
+	color: #000;
+}
+h1{
+	font-size: 3.281rem;	
+	font-family: 'Lobster', cursive;
+    text-align: center;
+}
+h2{
+	font-size: 3.0rem;	
+	font-family: 'PT Serif', serif;
+}
+h3{
+	font-size: 2.4rem;
+	font-family: 'PT Serif', serif;
+	color: #494949;	
+}
+p, li, a{
+	font-weight: 400;
+	font-family:'Average Sans', sans-serif;
+	color: #555;		
+}
+p{
+	padding: 5px 10px;
+	font-size: 1.4rem;
+}
+li{
+	font-size: 1.4rem;
+}
+ol li{
+	padding: 6px 20px;
+	margin-left: 20px;
+	list-style-position:inside;
+}
+a{
+	font-size: 1.4rem;
+}	
+
+/***********************************
+					Layout
+***********************************/
+.wrapper{
+	background-color: #FFAA84;
+}
+.masthead{
+	background-color:#7F4021;
+}
+.nav{
+	padding: 0rem;
+    box-sizing:border-box;
+}
+.navbar{
+	
+}
+.main{
+	padding: 1rem;
+    border: 1px double black;
+    border-width:5px;
+    background-color:#FFAA84;
+}
+.two {
+	padding: 1rem;
+    border: 1px double black;
+    border-width:5px;
+    background-color:#FFAA84;
+}
+.three{
+    border: 1px double black;
+    border-width:5px;
+    background-color:#FFAA84;
+    
+}
+.footer{
+	
+}
+/***********************************
+					Masthead
+***********************************/
+.masthead h1{
+	padding: 30px 20px;
+}
+
+/***********************************
+					Navigation
+***********************************/
+
+.navbar li{
+	float:left;	
+	width: 25%;  /* 960/4 = 240  works if the layout is 960*/
+	list-style:none;
+}
+.navbar a,
+.navbar a:visited{
+	display: block;	
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	color: #333;
+	background-color: #FF7537;
+}
+.navbar a:hover,
+.navbar a:active,
+.navbar a:focus{
+	color: #fff;
+	background-color: #333;
+}
+
+/***********************************
+					Content
+***********************************/
+.sidebar p{
+	font-size: 1.4rem;	
+}
+.instructions{
+	color: #C30;	
+}
+/***********************************
+					Footer
+***********************************/
+.footer p{
+	padding: 20px 20px;
+	font-size: 1.2rem;
+	color: #999;	
+	background-color: #7F5543;
+    clear:both;
+}
+
+/*********************************
+        Media Query's
+*********************************/
+
+@media all and (min-width: 1080px){
+   ol li{
+	padding: 6px;
+	margin-left: 20px;
+	list-style-position:inside;
+}
+    nav{
+        width: 10%;
+        float: left;
+        margin: 1px;
+    }
+    .navbar li{
+       width: 100%;
+        
+    }
+    
+    .main{
+        width: 40%;
+        float: left;
+        margin: 1px;
+      
+    }
+    
+    .two{
+        width: 20%;
+        float: left;
+        margin: 1px;
+        
+    }
+    
+    .three{
+        width: 20%;
+        float: left;
+        margin: 1px;
+        
+    }
+    
+}
+
+@media all and (min-width: 720px) and (max-width: 1079px){
+    nav{
+        width: 100%;
+    }
+    ol li{
+        width: 25%;
+        
+    }
+
+    .main{
+        width: 50%;
+        float: left;
+    }
+    
+    .two{
+        width: 25%;
+        float: left;
+    }
+    
+    .three{
+        width:25%;
+        float: left;
+        
+    }
+    
+}
+@media all and (min-width: 500px) and (max-width: 719px){
+    nav{
+        width: 100%;
+        
+    }
+    
+    .main{
+        width: 100%;
+        float: left;
+    }
+    
+    .two{
+        width: 50%;
+        float: left;
+    }
+    
+    .three{
+        width:50%;
+        float: left;
+        
+    }
+    
+}
+@media all and (max-width: 499px){
+
+    .navbar li{
+        width: 50%;
+        float:left;
+        
+    }
+
+    .main{
+        width: 100%;
+        float: left;
+    }
+    
+    .two{
+        width: 100%;
+        float: left;
+    }
+    
+    .three{
+        width:100%;
+        float: left;
+        
+    }
+    
+}
+
+Self-Assessment Exercise:
+1.	My strengths as I worked to achieve these learning objectives are numerous. I’m pretty strict with myself when it comes to procrastination; when something needs to get done, it gets done.  I’m considerably organized and that shows with my planned weekly schedule and on going to-do lists. With many years absent of school, I feel I have my priorities set exactly where they need to be.
+2.	My performance in my responses could be improved with maybe a little more time management begins assigned to homework. I feel like I’m getting my assignments done but I’m falling behind a little in readings and extra learning on Lynda.com.
+3.	 The most valuable insight I’ve attained from this assignment is the fact that I maybe have bitten off more then I can chew. I’m always so constantly busy trying to get from one commitment to another I may need to sacrifice some extra curricular activities in order to simply be less stressed and rushed. Only problem is I’m already financially committed to these activities and also require them to stay healthy and fit. When my body is taking care of, my mind follows and I need my mind healthy for school.
