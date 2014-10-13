@@ -5,6 +5,7 @@
 *{
 	padding:0;
 	margin:0;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }	
 body{
@@ -28,8 +29,7 @@ h2{
 }
 h3{
 	font-size: 2.4rem;
-	font-family: 'PT Serif', serif;
-	color: #494949;	
+	font-family: 'PT Serif', serif;	
 }
 p, li, a{
 	font-weight: 400;
@@ -60,6 +60,7 @@ a{
 }
 .masthead{
 	background-color:#7F4021;
+    border: 5px dashed black;
 }
 .nav{
 	padding: 0rem;
@@ -258,8 +259,3 @@ a{
     }
     
 }
-
-Self-Assessment Exercise:
-1.	My strengths as I worked to achieve these learning objectives are numerous. I’m pretty strict with myself when it comes to procrastination; when something needs to get done, it gets done.  I’m considerably organized and that shows with my planned weekly schedule and on going to-do lists. With many years absent of school, I feel I have my priorities set exactly where they need to be.
-2.	My performance in my responses could be improved with maybe a little more time management begins assigned to homework. I feel like I’m getting my assignments done but I’m falling behind a little in readings and extra learning on Lynda.com.
-3.	 The most valuable insight I’ve attained from this assignment is the fact that I maybe have bitten off more then I can chew. I’m always so constantly busy trying to get from one commitment to another I may need to sacrifice some extra curricular activities in order to simply be less stressed and rushed. Only problem is I’m already financially committed to these activities and also require them to stay healthy and fit. When my body is taking care of, my mind follows and I need my mind healthy for school.
